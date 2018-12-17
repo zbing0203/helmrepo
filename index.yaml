@@ -1,13 +1,33 @@
 apiVersion: v1
 entries:
+  artifactory-ha:
+  - apiVersion: v1
+    appVersion: 6.2.0
+    created: 2018-12-17T16:16:27.252408118+08:00
+    deprecated: true
+    description: DEPRECATED Universal Repository Manager supporting all major packaging
+      formats, build tools and CI servers.
+    digest: 291beb7ef3e0bf57e9a90837400d9e53ab86a3b22bfcc71afe4670aafca94229
+    home: https://www.jfrog.com/artifactory/
+    icon: https://raw.githubusercontent.com/JFrogDev/artifactory-dcos/master/images/jfrog_med.png
+    keywords:
+    - artifactory
+    - jfrog
+    name: artifactory-ha
+    sources:
+    - https://bintray.com/jfrog/product/JFrog-Artifactory-Pro/view
+    - https://github.com/jfrog/charts
+    urls:
+    - https://github.com/zbing0203/helmrepo/blob/master/artifactory-ha-0.4.1.tgz
+    version: 0.4.1
   example:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-12-17T14:31:47.744322044+08:00
+    created: 2018-12-17T16:16:27.252651658+08:00
     description: A Helm chart for Kubernetes
     digest: 258b16faca67095aa7297a0bb4a5641d92b62c8f4b107995851bc5c4f2c8fd07
     name: example
     urls:
-    - https://github.com/zbing0203/helmrepo/example-0.1.0.tgz
+    - https://github.com/zbing0203/helmrepo/blob/master/example-0.1.0.tgz
     version: 0.1.0
-generated: 2018-12-17T14:31:47.743926042+08:00
+generated: 2018-12-17T16:16:27.250744507+08:00
