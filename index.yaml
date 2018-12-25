@@ -18,7 +18,7 @@ entries:
     - https://bintray.com/jfrog/product/JFrog-Artifactory-Pro/view
     - https://github.com/jfrog/charts
     urls:
-    - https://github.com/zbing0203/helmrepo/blob/master/artifactory-ha-0.4.1.tgz
+    -  https://raw.githubusercontent.com/zbing0203/helmrepo/master/artifactory-ha-0.4.1.tgz
     version: 0.4.1
   example:
   - apiVersion: v1
@@ -28,6 +28,6 @@ entries:
     digest: 258b16faca67095aa7297a0bb4a5641d92b62c8f4b107995851bc5c4f2c8fd07
     name: example
     urls:
-    - https://github.com/zbing0203/helmrepo/blob/master/example-0.1.0.tgz
+    -  https://raw.githubusercontent.com/zbing0203/helmrepo/master/example-0.1.0.tgz
     version: 0.1.0
 generated: 2018-12-17T16:16:27.250744507+08:00
